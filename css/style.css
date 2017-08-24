@@ -773,6 +773,7 @@ iframe {
   }
   .blocker {
     padding: 0px;
+    padding-top: 70px;
   }
   .align > li {
     min-height: none;
