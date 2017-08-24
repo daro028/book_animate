@@ -744,7 +744,7 @@ figcaption p {
 
 .modal {
   max-width: 1000px;
-  width: 1000px;
+  
   height: 600px;
   padding: 0px;
 }
@@ -759,3 +759,22 @@ iframe {
   height: 100%;
   width: 100%;
 }
+
+@media screen and (min-width: 1000px) {
+  .modal {
+    width: 1000px;
+  }
+  
+} 
+
+@media screen and (max-width: 1050px) {
+  .repiza {
+    background-image: none;
+  }
+  .blocker {
+    padding: 0px;
+  }
+  .align > li {
+    min-height: none;
+  }
+} 
